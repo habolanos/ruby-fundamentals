@@ -21,10 +21,10 @@ end
 
 #puts param_nombre
 
-puts "#Distintos alcances de las variables"
+puts "#Distintos alcances de las variables, el ; para separar argumentos de variables de bloque"
 
 nombre = "Harold Adrian"
-saludo do |nombre|
+saludo do |; nombre|
     nombre = "Adrian David"
     puts "Hola #{nombre} <- dentro del bloque"
 end

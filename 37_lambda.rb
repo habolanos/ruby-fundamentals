@@ -12,13 +12,14 @@ miotralambda.call("Un Parametro")
 
 puts "Diferencias entre los lambda y bloques"
 def test_lambda
-    (->() {return "Game over"}).call()
+    resultado_lambda = (->() {return "Game over Lambda"}).call()
+    puts resultado_lambda
     puts "Despues de la lambda"
 end
 
 def test_block
-    (Proc.new {return "Game over"}).call()
-    puts "Despues de la lambda"
+    (Proc.new {return "Game over bloque"}).call()
+    puts "Despues del bloque"
 end
 
 puts test_lambda

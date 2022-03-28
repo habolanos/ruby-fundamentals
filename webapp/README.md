@@ -8,6 +8,9 @@ Create controller with name = home and action index
 
 `rails generate controller home index`
 
+Update Yarn 
+`curl --compressed -o- -L https://yarnpkg.com/install.sh | bash`
+
 Things you may want to cover:
 
 * Ruby version

@@ -1,7 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README would normally document whatever steps are necessary to get the application up and running.
+
+Comands commons:
+
+Create controller with name = home and action index
+
+`rails generate controller home index`
 
 Things you may want to cover:
 

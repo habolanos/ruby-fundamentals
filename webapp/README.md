@@ -10,6 +10,10 @@ Create controller with name = home and action index
 
 Update Yarn 
 `curl --compressed -o- -L https://yarnpkg.com/install.sh | bash`
+`yarn add jquery popper.js`
+
+Add dependencies Jquery and Popper.js
+
 
 Things you may want to cover:
 

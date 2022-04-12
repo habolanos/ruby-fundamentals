@@ -8,3 +8,4 @@ rails g scaffold Task name:string description:text due_date:date category:refere
 rails db:create
 rails db:migrate
 bundle exec annotate --models
+i18n-tasks add-missing

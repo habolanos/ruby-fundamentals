@@ -1,5 +1,6 @@
 ---
-en:
+es:
+  hello: Hello world
   activerecord:
     models:
       category:
@@ -10,16 +11,15 @@ en:
         others: Tareas
   categories:
     form:
-      description: Description
-      name: Name
+      description: Descripción
+      name: Nombre
       submit: Submit
     new_category: Nueva Categoria
-  common:
-    back: Atrás
-  hello: Hello world
   tasks:
     form:
-      category: Category
-      description: Description
-      due_date: Due date
-      name: Name
+      category: Categoría
+      description: Descripción
+      due_date: Fecha Vencimiento
+      name: Nombre
+  common:
+    back: Atrás

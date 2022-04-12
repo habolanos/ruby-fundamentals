@@ -3,6 +3,8 @@ class BooksController < ApplicationController
 
   # GET /books or /books.json
   def index
+    #binding.break
+    #binding.pry
     @books = Book.all
   end
 

@@ -12,6 +12,7 @@ class UsersController < ApplicationController
 
   # GET /users/new
   def new
+    I18n.locale = 'es'
     @user = User.new
   end
 

@@ -1,0 +1,9 @@
+rails console
+EDITOR=nano rails credentials:edit
+
+rails g scaffold Book title:string author:string description:string isbn:string page_count:integer
+rails db:migrate
+rails db:migrate:status
+rails generate simple_form:install
+gem install i18n-tasks
+i18n-tasks add-missing

@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  brand: MyString
+  origin: MyString
+  name: MyString
+  fuel: MyString
+  whels_count: 1
+
+two:
+  brand: MyString
+  origin: MyString
+  name: MyString
+  fuel: MyString
+  whels_count: 1

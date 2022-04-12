@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :autos
   resources :books
   get 'hola', to: 'welcome#hello'
 

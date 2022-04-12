@@ -1,0 +1,10 @@
+
+rails new piloto-organizador -T --database=postgresql
+yarn add bootstrap jquery @popperjs/core@^2.10.2 roboto-fontface
+bundle install
+rails g simple_form:install --bootstrap
+rails g scaffold Category name:string description:text
+rails g scaffold Task name:string description:text due_date:date category:references
+rails db:create
+rails db:migrate
+bundle exec annotate --models

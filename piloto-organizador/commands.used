@@ -13,3 +13,6 @@ rails g devise:install
 rails g devise User
 rails db:migrate
 rails routes
+rails g migration AddOwnerToTask user:references
+rails db:reset
+rails g model Participant role:integer user:references task:references

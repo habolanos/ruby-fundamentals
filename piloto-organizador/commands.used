@@ -9,3 +9,7 @@ rails db:create
 rails db:migrate
 bundle exec annotate --models
 i18n-tasks add-missing
+rails g devise:install
+rails g devise User
+rails db:migrate
+rails routes

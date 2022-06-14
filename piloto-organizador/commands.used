@@ -16,3 +16,4 @@ rails routes
 rails g migration AddOwnerToTask user:references
 rails db:reset
 rails g model Participant role:integer user:references task:references
+yarn add github:nathanvda/cocoon#c24ba53

@@ -11,6 +11,7 @@
     #addParticipants
       = link_to_add_association f, participanting_users, 'data-association-insertion-node' => '.participants .participants-container', 'data-turbolinks' => false do
       agregar participante
+
     .participants
       = f.simple_fields_for :participanting_users do |g|
         = render 'participating_user_fields', f: g
